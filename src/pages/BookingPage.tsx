@@ -97,7 +97,7 @@ export default function BookingPage() {
       <div className="mx-auto max-w-2xl px-5 py-24 text-center">
         <p className="text-[--color-driftwood]">Pick a property first to start a reservation.</p>
         <button onClick={() => navigate("home")} className="mt-4 rounded-xl bg-[--color-bronze] px-5 py-2.5 text-sm text-white">
-          Explore Stays
+          Explore Stays in chirala and spend your vacation with you family 
         </button>
       </div>
     );
