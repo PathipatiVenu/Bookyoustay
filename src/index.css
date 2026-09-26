@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Playfair Display", serif;
+  --font-body: "Plus Jakarta Sans", sans-serif;
+
+  --color-canvas: #fdfbf7;
+  --color-surface: #f7f4ee;
+  --color-border-soft: #e6dfd5;
+  --color-charcoal: #1f2937;
+  --color-driftwood: #78716c;
+  --color-slate-meta: #4b5563;
+  --color-sand: #c5a880;
+  --color-bronze: #b45309;
+  --color-bronze-dark: #92400e;
+  --color-sea: #047857;
+  --color-sea-bg: #ecfdf5;
+  --color-sea-border: #a7f3d0;
+  --color-crimson: #b91c1c;
+  --color-crimson-bg: #fef2f2;
+  --color-crimson-border: #fecaca;
+  --color-royal: #1d4ed8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-canvas);
+  color: var(--color-charcoal);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display);
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+.scroll-hide::-webkit-scrollbar { display: none; }
+.scroll-hide { -ms-overflow-style: none; scrollbar-width: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-bronze);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
