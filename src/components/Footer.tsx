@@ -48,13 +48,13 @@ export default function Footer() {
             <p className="text-sm leading-relaxed text-[--color-driftwood]">
               Beach Road, Suryalanka<br />
               Bapatla District, Andhra Pradesh 523157<br /><br />
-              bookyourstay@gmail.com
+              venupathipati1@gmail.com
             </p>
           </div>
         </div>
 
         <div className="mt-12 flex flex-col items-start justify-between gap-3 border-t border-[--color-border-soft] pt-6 text-xs text-[--color-driftwood] sm:flex-row sm:items-center">
-          <p>© {new Date().getFullYear()} BookYourStay. All stays independently verified. The rights are Belong to Property manager </p>
+          <p>© {new Date().getFullYear()} BookYourStay. All stays independently verified.</p>
           <div className="flex gap-5">
             <span>Cancellation Policy</span>
             <span>Privacy</span>
