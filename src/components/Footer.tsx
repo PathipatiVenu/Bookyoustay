@@ -54,7 +54,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 flex flex-col items-start justify-between gap-3 border-t border-[--color-border-soft] pt-6 text-xs text-[--color-driftwood] sm:flex-row sm:items-center">
-          <p>© {new Date().getFullYear()} BookYourStay. All stays independently verified.</p>
+          <p>© {new Date().getFullYear()} BookYourStay.</p>
           <div className="flex gap-5">
             <span>Cancellation Policy</span>
             <span>Privacy</span>
