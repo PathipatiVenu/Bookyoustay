@@ -16,7 +16,7 @@ export default function Footer() {
               <span className="font-display text-lg text-[--color-charcoal]">BookYourStay</span>
             </div>
             <p className="max-w-[26ch] text-sm leading-relaxed text-[--color-driftwood]">
-              Curated coastal stays along the Bapatla and Chirala shoreline.
+              Curated coastal stays along the Bapatla and Chirala shoreline.Hi hello Welcome to BookYourstay.
             </p>
           </div>
 
